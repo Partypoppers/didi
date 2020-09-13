@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <script src="Scripts/quiz.js"></script>
+</head>
+<body>
+  <div class = "container" id = "main-container">
+    <nav class = fade_in id = "nav-bar">
+      <ul class = "navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="memories.html">Memories</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class = "quiz">
+    <div id = "quiz-1" class = "quiz-boxes" style="display: block;">
+      <h2> QUIZ QUESTION 1???</h2>
+      <div class="quiz-answers">
+        <input type="text" id = "answer-1">
+        <input type="text" id = "answer-2">
+        <input type="text" id = "answer-3">
+        <input type="text" id = "answer-4">
+        <input type="text" id = "answer-5">
+      </div>
+      <div class="quiz-button">
+        <button type="submit" class="memory" onclick="chk_quiz1();">
+          <span> SUBMIT!!!</span>
+        </button>
+      </div>
+    </div>
+    <div id = "quiz-2" class = "quiz-boxes">
+      <h2> QUIZ QUESTION 2???</h2>
+      <div class="quiz-answers">
+        <input type="text" id = "answer-21">
+        <input type="text" id = "answer-22">
+        <input type="text" id = "answer-23">
+        <input type="text" id = "answer-24">
+        <input type="text" id = "answer-25">
+      </div>
+      <div class="quiz-button">
+        <button type="submit" class="memory" onclick="chk_quiz2();">
+          <span> SUBMIT!!!</span>
+        </button>
+      </div>
+    </div>
+    <div id = "quiz-3" class = "quiz-boxes">
+      <h2> QUIZ QUESTION 3???</h2>
+      <div class="quiz-answers">
+        <input type="text" id = "answer-31">
+        <input type="text" id = "answer-32">
+        <input type="text" id = "answer-33">
+        <input type="text" id = "answer-34">
+        <input type="text" id = "answer-35">
+      </div>
+      <div class="quiz-button">
+        <button type="submit" class="memory" onclick="chk_quiz3();">
+          <span> SUBMIT!!!</span>
+        </button>
+      </div>
+    </div>
+    <div id = "quiz-4" class = "quiz-boxes">
+      <h2> QUIZ QUESTION 4???</h2>
+      <div class="quiz-answers">
+        <input type="text" id = "answer-41">
+        <input type="text" id = "answer-42">
+        <input type="text" id = "answer-43">
+        <input type="text" id = "answer-44">
+        <input type="text" id = "answer-45">
+      </div>
+      <div class="quiz-button">
+        <button type="submit" class="memory" onclick="chk_quiz4();">
+          <span> SUBMIT!!!</span>
+        </button>
+      </div>
+    </div>
+    <div id = "quiz-5" class = "quiz-boxes">
+      <h2> QUIZ QUESTION 5???</h2>
+      <div class="quiz-answers">
+        <input type="text" id = "answer-51">
+        <input type="text" id = "answer-52">
+        <input type="text" id = "answer-53">
+        <input type="text" id = "answer-54">
+        <input type="text" id = "answer-55">
+      </div>
+      <div class="quiz-button">
+        <button type="submit" class="memory" onclick="chk_quiz5();">
+          <span> SUBMIT!!!</span>
+        </button>
+      </div>
+    </div>
+  <div id="quiz-message" class="quiz-message" style="display: none;">
+    
+  </div>
+  <button type="submit" class="memory" id = "next-btn" onclick="next_quiz()" style = "display : none">
+    <span> NEXT!!! </span>
+  </button>
+  </div>
+</body>
+</html>
